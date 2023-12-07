@@ -1,0 +1,29 @@
+.banner {
+  min-height: 60dvh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+}
+.text > * {
+  margin: 0;
+}
+.text h1 {
+  color: #fff;
+  font-size: 4.4rem;
+  font-weight: 400;
+}
+.text p {
+  color: #adb5bd;
+  font-size: 1.4rem;
+  font-weight: 400;
+}

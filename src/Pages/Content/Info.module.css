@@ -1,0 +1,16 @@
+.wp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 1rem;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.wp article {
+  padding: 1rem;
+}
+.overview{
+  background-color: #f1f3f5;
+}
+.info{
+  background-color: rgb(235, 222, 196);
+}

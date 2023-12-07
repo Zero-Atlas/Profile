@@ -1,0 +1,28 @@
+.navbar {
+  align-items: stretch;
+}
+
+.navbar a {
+  min-width: 10rem;
+  text-align: center;
+  height: 80%;
+  border-bottom-right-radius: 20% 50%;
+  border-bottom-left-radius: 20% 50%;
+}
+.navbar a:link,
+.navbar a:visited {
+  color: #333;
+}
+.navbar a.active {
+  background-color: #ccc;
+}
+
+.avatar {
+  height: 5rem;
+  width: 5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  transform: scale(2);
+  border: 2px solid #fff;
+  margin: 0 5rem;
+}
