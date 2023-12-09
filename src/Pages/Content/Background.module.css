@@ -1,0 +1,92 @@
+.wp {
+  gap: 4rem;
+  padding: 2rem 8rem;
+}
+.wp article {
+  border: #ddd 1px solid;
+  background-color: #d3dae4;
+  color: #868e96;
+  border-radius: 9px;
+  padding: 1rem 4rem;
+}
+.wp article .title {
+  color: #495057;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.wp article .title h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #343a40;
+}
+.wp article h3{
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #495057;
+}
+.wp article .time{
+  font-style: italic;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+/* exp specifical */
+.exp-item{
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 4rem;
+}
+.exp-item::before {
+  content: "";
+  background-color: #339af0;
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 1rem;
+  left: 0.4rem;
+}
+.exp-item>ul{
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+/* skill and technique */
+.skill-item{
+  margin-bottom: 4rem;
+}
+.scale{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.6rem;
+  padding-left: 1rem;
+}
+.scale p{
+  color: #495057;
+  font-size: 1.5rem;
+}
+.level{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.level span{
+  display: block;
+  height: 4px;
+  width: 15%;
+  background-color: #a7b4c9;
+}
+.level span.acquired{
+  background-color: #339af0;
+}
+
+/* education */
+.edu-item{
+  margin-bottom: 2rem;
+}
+.edu-item p.time{
+  margin-bottom: 0;
+}
