@@ -16,16 +16,7 @@
   align-items: center;
   margin-bottom: 2rem;
 }
-.wp article .title h2 {
-  font-size: 2.4rem;
-  font-weight: 500;
-  color: #343a40;
-}
-.wp article h3{
-  font-weight: 600;
-  font-size: 1.8rem;
-  color: #495057;
-}
+
 .wp article .time{
   font-style: italic;
   font-size: 1.4rem;

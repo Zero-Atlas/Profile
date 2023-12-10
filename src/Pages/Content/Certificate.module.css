@@ -1,0 +1,38 @@
+.wp {
+  padding: 1rem;
+  border-radius: 9px;
+  background-color: #ccccff;
+  margin: 0 2rem;
+}
+.wp ul {
+  margin-top: 3rem;
+  overflow: hidden;
+  gap: 2rem;
+}
+
+.cert-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  font-weight: 500;
+  color: #868e96;
+  line-height: 1.6;
+  padding: 1rem;
+  padding-right: 0;
+  border-bottom: 2px solid #e69500;
+}
+.cert-item:nth-child(2n + 1):nth-last-child(-n + 2),
+.cert-item:nth-child(2n + 1):nth-last-child(-n + 2) ~ .cert-item {
+  border-bottom: none;
+}
+
+.text {
+  padding-right: 1rem;
+  border-right: 2px solid #e69500;
+  transform: translateX(2px);
+  height: 80%;
+}
+
+.img {
+  flex-basis: 40%;
+}

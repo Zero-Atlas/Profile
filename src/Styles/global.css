@@ -1,4 +1,4 @@
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -12,21 +12,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-ul,ol{
-  list-style-type: none;
-}
-a{text-decoration: none;}
-div>img{width: 100%;}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* init element */
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+div > img {
+  width: 100%;
+}
+
+/* global css element */
+h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #343a40;
+}
+h3 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #495057;
 }
 
 /* container css */
@@ -43,25 +61,39 @@ code {
 .grid-contain > .full-width {
   grid-column: full-width;
 }
-.full-width{
+.full-width {
   padding: 0 10rem;
 }
 
 /* uti css */
 /* block level */
-.d-flex{
+.d-flex {
   display: flex;
 }
-.m-center{
+.d-grid {
+  display: grid;
+}
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+.m-center {
   margin: 0 auto;
 }
-.gap-1{gap: 1rem;}
-.gap-2{gap: 2rem;}
-.gap-3{gap: 3rem;}
-.gap-4{gap: 4rem;}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-3 {
+  gap: 3rem;
+}
+.gap-4 {
+  gap: 4rem;
+}
 
 /* element level */
-.btn{
+.btn {
   display: inline-block;
   padding: 0.6rem 1.4rem;
   outline: none;
