@@ -1,0 +1,9 @@
+.wp{
+  margin: 0 2rem;
+}
+.wp h2{
+  margin-bottom: 4rem;
+}
+.wp>ul{
+  gap: 2rem;
+}
